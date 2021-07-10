@@ -29,17 +29,17 @@ monitors:
     url: 'https://www.sudo-gate.com'
     method: GET
     expectStatus: 200
+    
+  - id: ovpn-sudo-gate-com
+    name: Sudo VPN Service
+    url: 'https://vpn.sudo-gate.com/'
+    method: GET
+    expectStatus: 200
 
   - id: sms-sudo-gate-com
     name: Bulk SMS Service
     url: 'https://sms.sudo-gate.com/'
     method: GET
-    
-  - id: vpn-sudo-gate-com
-    name: Sudo VPN Service
-    url: 'https://vpn.sudo-gate.com/'
-    method: GET
-    expectStatus: 200
     
   - id: emenu-sudo-gate-com
     name: E-Menu Services 
