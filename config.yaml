@@ -31,18 +31,18 @@ monitors:
     expectStatus: 200
 
   - id: sms-sudo-gate-com
-    name: BULK SMS Service
+    name: Bulk SMS Service
     url: 'https://sms.sudo-gate.com/'
     method: GET
     
   - id: vpn-sudo-gate-com
-    name: DE VPN Service 
+    name: DE VPN Server 
     url: 'https://ovpn.sudo-gate.com/'
     method: GET
     expectStatus: 200
     
   - id: vpn-sudo-gate-com
-    name: EU VPN Service 
+    name: EU VPN Server 
     url: 'https://ovpn2.sudo-gate.com/'
     method: GET
     expectStatus: 200
