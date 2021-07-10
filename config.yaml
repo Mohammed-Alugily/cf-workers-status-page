@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: APIs-sudo-gate-com # unique identifier
     name: APIs
-    description: 'You write code. They handle the rest.' # default=empty
+    #description: 'You write code. They handle the rest.' # default=empty
     url: 'https://www.sudo-gate.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -25,13 +25,36 @@ monitors:
 
   - id: www-sudo-gate-com
     name: www.sudo-gate.com
-    description: 'Built for anything connected to the Internet.'
+    #description: 'Built for anything connected to the Internet.'
     url: 'https://www.sudo-gate.com'
     method: GET
     expectStatus: 200
 
   - id: sms-sudo-gate-com
-    name: The Sudo Gate Bulk SMS
+    name: BULK SMS Service
     url: 'https://sms.sudo-gate.com/'
+    method: GET
+    
+  - id: vpn-sudo-gate-com
+    name: DE VPN Service 
+    url: 'https://ovpn.sudo-gate.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: vpn-sudo-gate-com
+    name: EU VPN Service 
+    url: 'https://ovpn2.sudo-gate.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: smartolt-sudo-gate-com
+    name: OLT SmartGate
+    url: 'https://city-tele.sudo-gate.com/'
+    method: GET
+    expectStatus: 200
+    
+  - id: emenu-sudo-gate-com
+    name: E-Menu Services 
+    url: 'https://emenu.sudo-gate.com/'
     method: GET
     expectStatus: 200
