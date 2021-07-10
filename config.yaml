@@ -36,20 +36,8 @@ monitors:
     method: GET
     
   - id: vpn-sudo-gate-com
-    name: DE VPN Server 
-    url: 'https://ovpn.sudo-gate.com/'
-    method: GET
-    expectStatus: 200
-    
-  - id: vpn-sudo-gate-com
-    name: EU VPN Server 
-    url: 'https://ovpn2.sudo-gate.com/'
-    method: GET
-    expectStatus: 200
-    
-  - id: smartolt-sudo-gate-com
-    name: OLT SmartGate
-    url: 'https://city-tele.sudo-gate.com/'
+    name: Sudo VPN Service
+    url: 'https://vpn.sudo-gate.com/'
     method: GET
     expectStatus: 200
     
